@@ -15,7 +15,7 @@
 - PyTorch
 - torchvision
 - timm
-- MobileNetV3（ImageNet事前学習モデル）
+- MobileNetV3
 - Pillow
 
 ---
@@ -104,6 +104,7 @@ pred_class: succulent
 probabilities:
   {'succulent': 0.88,'other': 0.12}
 ```
+
 
 
 
