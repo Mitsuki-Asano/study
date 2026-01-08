@@ -56,7 +56,7 @@ dataset/
 ```bash
 python train.py
 ```
-# 学習の流れ
+### 学習の流れ
 1.データセットを読み込む
 
 2.学習用データと検証用データに分割
@@ -91,7 +91,7 @@ predict.py 内の IMAGE_PATH を判定したい画像のパスに変更し、以
 python predict.py
 ```
 
-# 推論の流れ
+### 推論の流れ
 1.学習済みモデルおよびメタ情報を読み込み
 
 2.入力画像を学習時と同じ前処理で変換
@@ -106,5 +106,6 @@ pred_class: succulent
 probabilities:
   {'succulent': 0.88,'other': 0.12}
 ```
+
 
 
