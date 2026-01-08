@@ -1,4 +1,4 @@
-# Succulent Binary Classifier (Prototype)
+# 植物分類モデル
 
 ## 目的
 本プロジェクトは、撮影した植物画像を入力として、  
@@ -104,6 +104,7 @@ pred_class: succulent
 probabilities:
   {'succulent': 0.88,'other': 0.12}
 ```
+
 
 
 
