@@ -29,7 +29,7 @@ pip install torch torchvision timm pillow
 
 ---
 
-##データセット構成
+## データセット構成
 学習用画像は以下のフォルダ構造で配置する。
 フォルダ名がそのままクラスラベルとして使用される。
 
@@ -50,7 +50,7 @@ dataset/
 
 ---
 
-##学習（Training）
+## 学習（Training）
 以下のコマンドを実行すると、モデルの学習が開始される。
 
 ```bash
@@ -81,7 +81,7 @@ succulent_binary_meta.json
 
 ---
 
-##推論（Prediction）
+## 推論（Prediction）
 学習済みモデルを用いて、画像1枚を分類する。
 
 実行方法
@@ -107,3 +107,4 @@ probabilities:
   succulent: 0.88
   other: 0.12
 ```
+
