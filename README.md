@@ -70,14 +70,12 @@ python train.py
 出力ファイル
 学習完了後、以下のファイルが生成される。
 ```
-succulent_binary.pt
+succulent_binary.pt(学習済みモデルの重み)
 ```
-学習済みモデルの重み
 
 ```
-succulent_binary_meta.json
+succulent_binary_meta.json(クラス名・画像サイズなどのメタ情報)
 ```
-クラス名・画像サイズなどのメタ情報
 
 ---
 
@@ -106,6 +104,7 @@ pred_class: succulent
 probabilities:
   {'succulent': 0.88,'other': 0.12}
 ```
+
 
 
 
